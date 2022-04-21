@@ -1,0 +1,91 @@
+#include <stdio.h>
+int main()
+{
+    int numero;
+    printf("Inserisci un numero a piacere: ");
+    scanf("%d",&numero); 
+    if (numero>=3)
+    {
+        if(numero==3)
+        {
+            printf("***\n");
+            printf("* *\n");
+            printf("***\n");
+        }
+        if(numero==4)
+        {
+            printf("****\n");
+            printf("*  *\n");
+            printf("*  *\n");
+            printf("****\n");  
+        }
+        if(numero==5)
+        {
+            printf("*****\n");
+            printf("*   *\n");
+            printf("*   *\n");
+            printf("*   *\n");
+            printf("*****\n");  
+        }
+        if(numero==6)
+        {
+            printf("******\n");
+            printf("*    *\n");
+            printf("*    *\n");
+            printf("*    *\n");
+            printf("*    *\n");
+            printf("******\n");  
+        }
+        if(numero==7)
+        {
+            printf("*******\n");
+            printf("*     *\n");
+            printf("*     *\n");
+            printf("*     *\n");
+            printf("*     *\n");
+            printf("*     *\n");
+            printf("*******\n");  
+        }
+        if(numero==8)
+        {
+            printf("********\n");
+            printf("*      *\n");
+            printf("*      *\n");
+            printf("*      *\n");
+            printf("*      *\n");
+            printf("*      *\n");
+            printf("*      *\n");
+            printf("********\n");  
+        }
+        if(numero==9)
+        {
+            printf("*********\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*       *\n");
+            printf("*********\n");  
+        }
+        if(numero==10)
+        {
+            printf("**********\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("*        *\n");
+            printf("**********\n");  
+        }
+    }
+    if(numero>10)
+    printf("Il numero da te inserito supera il limite computazionale compreso tra i valori 3 e 10\n");
+    if(numero<3)
+    printf("Il numero da te inserito è inferiore al limite computazionale, valore minimo 3\n");
+return 0;
+}
